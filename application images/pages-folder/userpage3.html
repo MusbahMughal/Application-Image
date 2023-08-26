@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .section-contanier {
+            margin-left: 250px;
+            width: 460px;
+            height: 1050px;
+            flex-shrink: 0;
+            border-radius: 35px;
+            background: #FFF;
+            box-shadow: 0px 2px 12px 3px #61B846;
+        }
+
+        .text-upper {
+            text-align: center;
+            align-items: center;
+        }
+
+        .Sitting-head {
+            padding-top: 20px;
+            align-items: center;
+            margin-left: 150px;
+            width: 116px;
+            color: #024F9D;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            /* 100% */
+        }
+
+        .person-image {
+            width: 130px;
+            height: 130px;
+            flex-shrink: 0;
+            border-radius: 130px;
+            border: 1px solid #61B846;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+
+        .text-upper h2 {
+            color: #D4D3D3;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+            /* 125% */
+        }
+
+        .order-head {
+            margin-left: 40px;
+            width: 119px;
+            height: 28px;
+            flex-shrink: 0;
+            color: #024F9D;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+            /* 125% */
+        }
+
+
+        .order-contanier {
+            margin-left: 50px;
+        }
+
+        .order-text h1 {
+            /* margin-left: 50px; */
+            width: 242px;
+            height: 20px;
+            flex-shrink: 0;
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            /* line-height: 25px; */
+            /* 125% */
+        }
+
+
+        .id-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .id-box h4 {
+            width: 241px;
+            height: 20px;
+            flex-shrink: 0;
+            color: #000;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            /* line-height: 25px; */
+            /* 250% */
+        }
+
+        .id-box h2 {
+            width: 117px;
+            height: 20px;
+            flex-shrink: 0;
+            color: #000;
+            text-align: right;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            /* line-height: 25px; */
+            /* 250% */
+        }
+
+        .order-text h3 {
+            width: 240px;
+            height: 30px;
+            flex-shrink: 0;
+            color: #BFBFBF;
+            /* font-family: Inter; */
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            /* line-height: 12px; */
+            /* 100% */
+        }
+
+        .total-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .total-box h1 {
+            color: #000;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            /* line-height: 25px; 166.667% */
+        }
+
+        .total-box h2 {
+            color: #61B846;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            /* line-height: 25px; 166.667% */
+        }
+
+
+
+        .divider {
+            width: 363px;
+            height: 1px;
+            flex-shrink: 0;
+            background: #D9D9D9;
+        }
+
+        /* LOGOUT BUTTON */
+        .logout-btn {
+            width: 358px;
+            height: 72px;
+            flex-shrink: 0;
+            border-radius: 15px;
+            background: #61B846;
+            box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+            color: #FFF;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            /* 100% */
+        }
+
+        .icon-img {
+            
+            display: grid;
+            align-items: center;
+            grid-template-columns: 1fr 1fr;
+            width: 75px;
+            height: 56px;
+            flex-shrink: 0;
+            background: url(<path-to-image>), lightgray 0px 0px / 457.333% 100% no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+    <section class="section-contanier">
+        <div class="text-upper">
+
+            <h1 class="Sitting-head">Sitting</h1>
+            <img class="person-image" src="../Ellipse 4.png">
+            <h2>Update Full Name</h2>
+        </div>
+
+        <h1 class="order-head">Orders</h1>
+
+        <!-- FIRST ORDER CONTANIER -->
+        <div class="order-contanier">
+
+            <div class="order-text">
+                <h1>Inzamam Malik</h1>
+
+                <div class="id-box">
+                    <h4>Inzamam Malik</h4>
+                    <h2>03022004480</h2>
+                </div>
+
+
+                <h3>2 x ITEM NAME<br>
+                    3 x ITEM NAME </h3>
+
+
+                <div class="total-box">
+                    <h1>Total</h1>
+                    <h2>$ 185.00</h2>
+                </div>
+                <hr class="divider">
+            </div>
+
+
+            <div class="SECOND-ORDER">
+
+
+
+                <!-- SECOND ORDER CONTANIER -->
+                <!-- <div class="order-contanier"> -->
+
+                <div class="order-text">
+                    <h1>Inzamam Malik</h1>
+
+                    <div class="id-box">
+                        <h4>Inzamam Malik</h4>
+                        <h2>03022004480</h2>
+                    </div>
+
+
+                    <h3>2 x ITEM NAME<br>
+                        3 x ITEM NAME </h3>
+
+
+                    <div class="total-box">
+                        <h1>Total</h1>
+                        <h2>$ 185.00</h2>
+                    </div>
+                    <hr class="divider">
+                </div>
+
+
+                <!-- THREE ORDER CONTANIER -->
+                <!-- <div class="order-contanier"> -->
+
+                <div class="order-text">
+                    <h1>Inzamam Malik</h1>
+
+                    <div class="id-box">
+                        <h4>Inzamam Malik</h4>
+                        <h2>03022004480</h2>
+                    </div>
+
+
+                    <h3>2 x ITEM NAME<br>
+                        3 x ITEM NAME </h3>
+
+
+                    <div class="total-box">
+                        <h1>Total</h1>
+                        <h2>$ 185.00</h2>
+                    </div>
+                    <!-- <hr class="divider"> -->
+                </div>
+            </div>
+
+
+
+
+
+            <button class="logout-btn">Log Out</button>
+            <div class="icon-img">
+                <img src="./image 2 (1).png">
+                <img src="./image 9.png">
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
